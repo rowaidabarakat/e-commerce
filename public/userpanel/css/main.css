@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    position: relative;
+}
+header nav.row{
+    --bs-gutter-x: 0;
+    background-color: #000;
+    padding: 20px;
+}
+header nav .logo h3{
+    color: white;
+    text-align: center;
+}
+header nav ul{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+header .navmenu .hide-nav button{
+    padding: 20px;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.banner .carousel.slide .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 480px;
+}
+.banner .carousel.slide .carousel-inner .carousel-item{
+    position: relative;
+}
+.banner .carousel.slide .carousel-inner .carousel-item .banner-text{
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center;
+    color: white;
+    padding: 40px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+/* ---------------------------------collection-------------------- */
+.collection{
+    width: 100%;
+    margin: 50px 0;
+}
+.collection img{
+    width: 100%;
+    height: 100%;
+}
+.collection .collection-img1{
+    width: 100%;
+    height: 300px;
+}
+.collection .collection-img2{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 20px;
+}
+.collection .collection-text{
+    padding: 20px 0;
+}
+.collection .collection-text h3{
+    color: rgb(223, 73, 73);
+    letter-spacing: 5px;
+}
+.collection .collection-text h1{
+    font:bold;
+}
+.collection .collection-text button{
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/*------------------------------------- section featured and trending-----------------------------*/
+.featured,.trending,.chehare,.textimg,.latest{
+    margin: 70px 0;
+}
+.featured .featured-text,.trending .trending-text,.trending .trending-btn,.latest .latest-blog{
+    text-align: center;
+}
+.featured .featured-text h2,.trending .trending-text h2{
+    padding-bottom: 15px;
+}
+.featured .featured-text p{
+    word-spacing: 25px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.featured .featured-text p span,.trending .trending-text p span{
+    color: rgb(223, 73, 73);
+}
+.featured .featured-boxs .featured-box .featured-box-img,.trending .trending-boxs .trending-box .trending-box-img{
+    height: 300px;
+}
+.featured .featured-boxs .featured-box .featured-box-img img,.trending .trending-boxs .trending-box .trending-box-img img{
+    width: 100%;
+    height: 100%;
+}
+.featured .featured-boxs .featured-box .featured-box-text,.trending .trending-boxs .trending-box .trending-box-text{
+    padding: 15px 10px;
+}
+.featured .featured-boxs .featured-box .featured-box-text h3 svg,.trending .trending-boxs .trending-box .trending-box-text h3 svg{
+    font-size: 22px;
+}
+.featured .featured-boxs .featured-box .featured-box-text p svg,.trending .trending-boxs .trending-box .trending-box-text p svg{
+    color: rgb(202, 115, 127);
+    font-size: 18px;
+}
+.featured .featured-boxs .featured-box .featured-box-text p span svg,.trending .trending-boxs .trending-box .trending-box-text p span svg{
+    color:silver;
+}
+.featured .featured-boxs .featured-box .featured-box-text a svg,.trending .trending-boxs .trending-box .trending-box-text a svg{
+    color: rgb(95, 228, 172);
+    font-size: 18px;
+}
+.trending .trending-btn button{
+    font-weight: bold;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+/*--------------------------------------section chehare and textimg---------------------*/
+.chehare .row,.textimg .row{
+    --bs-gutter-x: 0rem;
+}
+.chehare .chehare-img,.textimg .textimg-img{
+    height: 500px;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.chehare .chehare-img.img1{
+    background-image: url(../images/chehare1.jpg);
+}
+.chehare .chehare-img.img2{
+    background-image: url(../images/chehare2.jpg);
+}
+.textimg .textimg-img{
+    background-image: url(../images/textimg1.jpg);
+}
+.chehare .chehare-img .chehare-img-text,.textimg .textimg-img .textimg-text{
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.chehare .chehare-img .chehare-img-text h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.chehare .chehare-img .chehare-img-text span{
+    color: deeppink;
+}
+.chehare .chehare-img .chehare-img-text p{
+    letter-spacing: 7px;
+}
+.textimg .textimg-img .textimg-text p{
+    font-size: 15px;
+    font-style: italic;
+}
+/* ------------------------ */
+.latest .latest-blog{
+    padding: 20px 0 30px 0;
+}
+.latest .latest-box .latest-box-img{
+    width: 100%;
+    height: 250px;
+}
+.latest .latest-box .latest-box-img img{
+    width: 100%;
+    height: 100%;
+}
+.latest .latest-box .latest-box-text h2{
+    padding: 15px 0;
+}
+.latest .latest-box .latest-box-text button{
+    padding: 5px 15px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+
+
+footer{
+    margin-top: 30px;
+    padding: 50px 0;
+    background-color: rgb(24, 23, 23);
+}
+
+.footer-boxs .footer-box h3{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+.footer-boxs .footer-box ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-boxs .footer-box ul li{
+    margin-bottom: 5px;
+}
+.footer-boxs .footer-box ul li a{
+    color: #b2bfe0;
+    text-decoration: none;
+}
+.footer-boxs .footer-box ul li a:hover{
+    color: #2a81ea;
+}
+.footer-boxs .footer-box p{
+    color: #b2bfe0;
+    
+}
+.footer-boxs .footer-box button{
+    padding: 10px 30px;
+    margin: 20px 0;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    background-color: deeppink;
+    border: none;
+    display: block;
+}
+.footer-boxs .footer-box svg{
+    font-size: 22px;
+    color: white;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.footer-boxs .footer-box svg:hover{
+    color: #2a81ea;
+}
+
